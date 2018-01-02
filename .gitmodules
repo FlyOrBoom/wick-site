@@ -1,0 +1,3 @@
+[submodule "wick-editor"]
+	path = wick-editor
+	url = https://github.com/zrispo/wick-editor
