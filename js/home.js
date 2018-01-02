@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $( ".launch-editor-button" ).click(function() {
-        window.top.location.href = "/wick-editor"
+        window.top.location.href = "../wick-editor";
     });
 
     $( '.fork-me-on-github ').click(function() {
@@ -21,7 +21,7 @@ $(document).ready(function() {
             iframe.onload = function () {
                 iframe.contentWindow.runProject(JSON.stringify(data));
             }
-            iframe.src = "../../wick-editor/player.html";
+            iframe.src = "../wick-editor/player.html";
             playerContainer.appendChild(iframe);
         },
         error: function () {

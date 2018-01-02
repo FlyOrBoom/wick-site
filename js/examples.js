@@ -64,7 +64,7 @@ function loadDemo (demo) {
             iframe.onload = function () {
                 iframe.contentWindow.runProject(JSON.stringify(data));
             }
-            iframe.src = "../../player.html";
+            iframe.src = "../wick-editor/player.html";
             playerContainer.appendChild(iframe);
         },
         error: function () {
