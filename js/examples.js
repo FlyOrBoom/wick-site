@@ -25,7 +25,7 @@ function createDemoThumbs (demos) {
             demoElem['example-grid-element-tutorial-link'].style.display = 'none';
         }
         demoElem['example-grid-element-open-in-editor-link'].onclick = function () {
-            var url = "../../editor.html?demo=" + demo.projectPath;
+            var url = "../wick-editor/index.html?demo=" + demo.projectPath;
             window.open(url)
         }
         demoElems.push(demoElem);
