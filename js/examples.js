@@ -83,7 +83,7 @@ function closePlayer () {
 
 $(document).ready(function() {
     $.ajax({
-        url: DEMOS_PATH+"_examples.json",
+        url: DEMOS_PATH+"examples.json",
         type: 'GET',
         data: {},
         success: function(data) {
