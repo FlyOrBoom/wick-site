@@ -1,0 +1,89 @@
+/*
+ * Wick brand styling
+ */ 
+
+body {
+  font-family: "Nunito" !important;
+  --wick-darkgreen: #3ee09e;
+  --wick-lightblue: #aef3eb;
+}
+
+/*
+ * Wick header
+ */ 
+
+.site-header {
+  background-color: var(--wick-darkgreen)!important;
+}
+
+.site-header a {
+  background-color: var(--wick-darkgreen)!important;
+  color: white!important;
+}
+.site-header a:hover {
+  color: gray!important;
+}
+
+/*
+ * Wick background
+ */ 
+
+.wave-bg {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.wave {
+  height:700px;
+  background: url(../assets/wave.svg);
+  background-size: 100% auto; 
+}
+
+.gradient-bg {
+  position: absolute;
+  background: linear-gradient(var(--wick-lightblue), #fff);
+  width: 100%;
+  height: 800px;
+  z-index: -2;
+}
+
+/*
+ * Wick launch editor button
+ */ 
+
+.btn {
+  border-radius: 30px;
+  border-width: 8px;
+  color:black;
+  font-size: 20px;
+}
+
+.btn:hover {
+  color:white;
+}
+
+.btn-outline-secondary {
+  background-color: rgba(0,0,0,0);
+  border-color: var(--wick-darkgreen);
+}
+.btn-outline-secondary:hover {
+  background-color: var(--wick-darkgreen);
+  border-color: var(--wick-darkgreen);
+}
+
+/*
+ * Wick footer
+ */ 
+
+.footer-bottom {
+  width: 100%;
+  height: 20px;
+  background-color: var(--wick-darkgreen);
+}
+
+.footer-section-header {
+  color: var(--wick-darkgreen);
+}
