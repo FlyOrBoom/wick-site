@@ -74,6 +74,10 @@ body {
   border-color: var(--wick-darkgreen);
 }
 
+.editor-version {
+  font-size: 10pt;
+}
+
 /*
  * Wick footer
  */ 
