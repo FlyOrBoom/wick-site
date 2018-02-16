@@ -42,11 +42,6 @@
     </nav>
 
     <div class='subpage-container' id='subpage-home' style='display:block;'></div>
-    <div class='subpage-container' id='subpage-tutorials'></div>
-    <div class='subpage-container' id='subpage-examples'></div>
-    <div class='subpage-container' id='subpage-about'></div>
-    <div class='subpage-container' id='subpage-contact'></div>
-    <div class='subpage-container' id='subpage-donate'></div>
 
     <footer class="container py-5">
       <div class="row">
@@ -110,22 +105,28 @@
 
     <script>
       function showSubpage (id) {
+        var subpageNameWithoutHash = id.slice(1)
+        var subpageDivId = '#subpage-' + subpageNameWithoutHash;
+
+        if($(subpageDivId).length === 0) {
+          $("<div class='subpage-container' id='subpage-"+subpageNameWithoutHash+"'></div>").insertAfter("#subpage-home");
+        }
+
+        $(subpageDivId).load('subpages/'+subpageNameWithoutHash+'.html');
+
         $('.subpage-container').hide();
-        $('#subpage-'+id.slice(1)).show();
+        $(subpageDivId).show();
         window.scrollTo(0,0);
-      }
-      function loadSubpage (id) {
-        $('#'+id).load('subpages/'+id.split('-')[1]+'.html');
       }
       $( window ).on( 'hashchange', function( e ) {
           showSubpage( window.location.hash );
       } );
       $( window ).on( 'load', function( e ) {
-          $( ".subpage-container" ).each(function( index ) {
-            loadSubpage(this.id)
-          });
-          if(window.location.hash)
+          if(window.location.hash) {
             showSubpage( window.location.hash );
+          } else {
+            showSubpage('#home')
+          }
       } );
     </script>
   </body>
