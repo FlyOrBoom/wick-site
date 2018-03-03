@@ -1,4 +1,4 @@
-var DEMOS_PATH = "../wick-editor/examples/";
+var DEMOS_PATH = "../examples/";
 var demoElems = [];
 
 function createDemoThumbs (demos) {
