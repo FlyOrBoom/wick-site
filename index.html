@@ -14,6 +14,7 @@
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/bootstrap-product.css" rel="stylesheet">
     <link href="styles/wick-brand.css" rel="stylesheet">
+    <link href="styles/tutorials.css" rel="stylesheet">
 
     <style>
     .subpage-container {
@@ -119,7 +120,7 @@
           $("<div class='subpage-container' id='subpage-"+subpageNameWithoutHash+"'></div>").insertAfter("#subpage-home");
         }
 
-        $(subpageDivId).load('subpages/'+subpageNameWithoutHash+'.html');
+        $(subpageDivId).load('pages/'+subpageNameWithoutHash+'.html');
 
         $('.subpage-container').hide();
         $(subpageDivId).show();
