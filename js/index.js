@@ -38,7 +38,7 @@ $(document).ready(function() {
     });
 
     $( ".updates-button" ).click(function() {
-        window.open('http://forum.wickeditor.com/t/wick-0-13-update-thread/315')
+        window.open('http://forum.wickeditor.com/t/wick-0-15-update-thread-video-export/461')
     });
 
     $( ".community-button" ).click(function() {
