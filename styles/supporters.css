@@ -1,0 +1,132 @@
+.section-title {
+  font-size: 42px; 
+  font-family: Nunito; 
+  margin-bottom:6px; 
+}
+
+.section-text {
+  font-size: 16px; 
+  font-family: Nunito; 
+  text-align: left;
+  max-width: 60%; 
+}
+
+.section {
+  margin-top: 10px; 
+  margin-left: 10%; 
+  margin-right: 10%; 
+}
+
+.section-subtitle {
+  font-size: 30px; 
+  font-family: Nunito; 
+  margin-bottom: 6px; 
+}
+
+#supporters-header {
+  margin-left: 8px;
+  margin-left: 10%; 
+  margin-right: 10%; 
+}
+
+.top-spacing {
+	width: 100%;
+	height: 30px;
+}
+
+.bottom-spacing {
+  width: 100%; 
+  height: 30px; 
+}
+
+.grant-list {
+  display: flex;
+}
+
+.large-grants-icon {
+  width: 250px; 
+  height: 200px; 
+}
+
+.medium-grants-icon {
+  width: 200px; 
+  height: 150px; 
+}
+
+.small-grants-icon {
+  width: 150px; 
+  height: 100px; 
+}
+
+.logo-container {
+  flex-direction: row;
+  display: flex; 
+  width: 100%; 
+  height: 175px; 
+}
+
+.logo {
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-left: 10px; 
+  padding-right: 10px; 
+}
+
+#mozilla-logo {
+  background-image: url("../img/logos/mozilla.png")
+}
+
+#studio-logo {
+  background-image: url("../img/logos/sfci.png")
+}
+
+#olympus-logo {
+  background-image: url("../img/logos/project-olympus.jpg")
+}
+
+#armero-logo {
+  background-image: url("../img/logos/henryarmero.png")
+}
+
+#bxa-logo {
+  background-image: url("../img/logos/bxa.jpg")
+}
+
+#patreon-title {
+  font-size: 24px; 
+}
+
+.supporter {
+  float: left; 
+  padding: 2px;
+}
+.supporter-subtitle {
+  font-size: 20px; 
+  margin-top: 4px;
+}
+
+.platinum-supporter {
+  font-size: 18px; 
+}
+
+.gold-supporter {
+  font-size: 16px;
+}
+
+.silver-supporter {
+  font-size: 14px; 
+}
+.bronze-supporter {
+  font-size: 12px;
+}
+
+.patreon-supporter {
+  font-size: 10px; 
+}
+
+.supporter-list {
+  text-align: center; 
+  float: none; 
+}

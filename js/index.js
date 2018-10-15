@@ -36,6 +36,12 @@ $(document).ready(function() {
         frame.src = "pages/about.html"
         window.location.hash = "about"
     });
+  
+    $( ".supporters-button" ).click(function() {
+        frame.src = "pages/supporters.html"
+        window.location.hash = "supporters"
+    });
+
 
     $( ".updates-button" ).click(function() {
         window.open('http://forum.wickeditor.com/t/wick-0-15-update-thread-video-export/461')
