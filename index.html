@@ -26,6 +26,10 @@
       crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 
+    <style>
+
+    </style>
+
     <link href='styles/common.css' rel='stylesheet' type='text/css'>
 </head>
 
@@ -33,20 +37,19 @@
   <!-- Navbar (sit on top) -->
     <div class="w3-top">
       <div class="w3-bar wick-menu-bar w3-card-2" id="myNavbar">
-        <div class="logo wicklogo"> <img id="logo-image" src="resources/Flashy.svg"><div id="header-title">Wick Editor</div></div>
+        <div class="logo wicklogo"> <img id="logo-image" src="resources/Flashy.svg"><div id="header-title">wick editor</div></div>
         <!-- Right-sided navbar links -->
-        <div class="w3-right w3-hide-small">
+        <div class="w3-right w3-hide-small w3-hide-medium">
           <div class="w3-button top-bar-item examples-button">Examples</div>
           <div class="w3-button top-bar-item tutorials-button">Tutorials</div>
           <div class="w3-button top-bar-item community-button">Community</div>
           <div class="w3-button top-bar-item updates-button">Updates</div>
           <div class="w3-button top-bar-item supporters-button">Supporters</div>
           <div class="w3-button top-bar-item about-button">About</div>
-
         </div>
 
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-        <a href="javascript:void(0)" class="w3-bar-item top-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <a href="javascript:void(0)" class="w3-bar-item top-bar-item w3-button w3-right w3-hide-large" onclick="w3_open()">
           <i class="fa fa-bars"></i>
         </a>
       </div>
@@ -54,11 +57,10 @@
     </div>
 
     <!-- Sidebar on small screens when clicking the menu icon -->
-    <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left  w3-hide-large" style="display:none" id="mySidebar">
       <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button side-bar-item">Close</a>
       <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item logo">Home</div>
       <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item Examples-button">Examples</div>
-      <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item reference-button">Reference</div>
       <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item community-button">Community</div>
       <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item updates-button">Updates</div>
       <div onclick="w3_close()" class="w3-bar-item w3-button side-bar-item supporters-button">Supporters</div>
