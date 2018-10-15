@@ -62,9 +62,11 @@ body {
 }
 
 .homepage-image-alt {
-	width: 720px;
 	max-width: 90%;
-	margin-left: 5%;
+	display:block;
+	margin:auto;
+	margin-top: 20px;
+
 }
 .homepage-image {
 	width: 95%;
@@ -153,14 +155,12 @@ body {
 	width: 100%;
 	height: 650px;
 }
+
 .mobile {
 	display: none;
-	position: absolute;
-	top: 50%;
-	transform:translateY(-50%);
 	width: 100%;
-	height: 500px;
 }
+
 @media only screen and (max-width: 700px) {
 	.link-button {
 		width: 90%;
@@ -171,6 +171,14 @@ body {
 	}
 	.mobile {
 		display: block;
+	}
+
+	.version-number {
+		display: none;
+	}
+
+	.last-updated {
+		display: none;
 	}
 }
 
