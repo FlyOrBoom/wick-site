@@ -30,8 +30,8 @@
 }
 
 .section-grants-text {
-  color: #43f2b8;
   font-size: 24px;
+  text-align: center;
 }
 
 .top-spacing {
@@ -61,6 +61,11 @@
   flex: 1;
   padding: 20px;
   margin: 0 auto;
+}
+
+#patreon-supporters-section {
+  margin-top: 20px;
+  text-align: center;
 }
 
 * {

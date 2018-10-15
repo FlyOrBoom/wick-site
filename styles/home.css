@@ -142,7 +142,7 @@ body {
 }
 
 .w3-button {
-	color: white; 
+	color: white;
 }
 
 .desktop {
@@ -198,10 +198,9 @@ body, html {
   float: left;
   background-color: rgba(0,0,0,0);
   cursor: pointer;
-  width: 160px;
+  width: 240px;
   height: 100%;
 }
 .wicklogo:hover {
   background-color: rgba(0,0,0,0.1);
 }
-
